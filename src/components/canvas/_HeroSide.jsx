@@ -1,9 +1,44 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/no-unknown-property */
-import { Suspense } from "react";
+import * as THREE from "three";
+import { useMemo, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { ContactShadows, Float, Html, OrbitControls } from "@react-three/drei";
-
+import { MathUtils } from "three";
+const material = new THREE.MeshStandardMaterial();
+const geometries = [
+  { geometry: new THREE.TetrahedronGeometry(2) },
+  { geometry: new THREE.IcosahedronGeometry(2) },
+  { geometry: new THREE.SphereGeometry(1.5, 32, 32) },
+  { geometry: new THREE.BoxGeometry(2.5, 2.5, 2.5) },
+];
+function Geometries() {
+  const n = 10;
+  const randProps = useMemo(
+    () =>
+      Array.from(
+        { length: n },
+        () => geometries[Math.floor(Math.random() * geometries.length)]
+      ),
+    []
+  );
+  return randProps.map((prop, index) => {
+    return (
+      <Float key={index}>
+        <mesh
+          scale={MathUtils.randFloat(0.25, 0.5)}
+          position={[
+            MathUtils.randFloat(-8, 8),
+            MathUtils.randFloat(-8, 8),
+            MathUtils.randFloat(-8, 8),
+          ]}
+          geometry={prop.geometry}
+          material={material}
+        />
+      </Float>
+    );
+  });
+}
 export default function HeroSide() {
   return (
     <Canvas camera={{ position: [0, 0, 22.5] }}>
@@ -20,7 +55,7 @@ export default function HeroSide() {
             />
           </Html>
         </Float>
-
+        <Geometries />
         <mesh
           scale={4}
           position={[3, -9.161, -1.5]}

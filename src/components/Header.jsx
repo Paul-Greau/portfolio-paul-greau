@@ -26,7 +26,8 @@ const Header = () => {
             </p>
           </div>
         </div>
-        <div className=" z-0 hidden h-[100%] w-[50%] lg:block">
+
+        <div className=" z-0 relative w-[50%] h-full overflow-hidden pointer-events-auto touch-none ">
           <HeroSide />
         </div>
       </div>
