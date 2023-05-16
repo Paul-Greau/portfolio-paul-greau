@@ -1,5 +1,5 @@
 /* eslint-disable tailwindcss/no-custom-classname */
-import HeroSide from "../components/canvas/HeroSide";
+// import HeroSide from "../components/canvas/HeroSide";
 
 const Header = () => {
   return (
@@ -28,7 +28,7 @@ const Header = () => {
         </div>
 
         <div className=" z-0 relative w-[50%] h-full overflow-hidden pointer-events-auto touch-none ">
-          <HeroSide />
+          {/* <HeroSide /> */}
         </div>
       </div>
     </section>
