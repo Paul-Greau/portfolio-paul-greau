@@ -46,12 +46,11 @@ export default function HeroSide() {
       <Suspense fallback={null}>
         <Float floatIntensity={10} rotationIntensity={1}>
           <Html castShadow receiveShadow occlude="blending" transform>
-            {/* <img src="https://picsum.photos/700/500"></img> */}
             <iframe
               title="embed"
               width={700}
               height={500}
-              src="http://localhost:5173/#header"
+              src="https://paul-greau.netlify.app"
               frameBorder={0}
             />
           </Html>
