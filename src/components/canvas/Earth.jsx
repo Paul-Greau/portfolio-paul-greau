@@ -23,7 +23,7 @@ function Earth(props) {
   const { nodes, materials, animations } = useGLTF("/earth.glb");
   const { actions } = useAnimations(animations, group);
   return (
-    <group ref={group} {...props} dispose={null} scale={1.9}>
+    <group ref={group} {...props} dispose={null} scale={1.6}>
       <group name="Sketchfab_Scene">
         <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>
           <group name="Root">

@@ -1,5 +1,6 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 // import HeroSide from "../components/canvas/HeroSide";
+import CubeModel from "./canvas/CubeModel";
 
 const Header = () => {
   return (
@@ -27,8 +28,9 @@ const Header = () => {
           </div>
         </div>
 
-        <div className=" z-0 relative w-[50%] h-full overflow-hidden pointer-events-auto touch-none ">
+        <div className=" z-0 relative  hidden lg:block w-[50%] h-full">
           {/* <HeroSide /> */}
+          <CubeModel />
         </div>
       </div>
     </section>

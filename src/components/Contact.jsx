@@ -70,7 +70,9 @@ function Contact() {
   return (
     <section id="contact" className="flex flex-col h-auto sm:flex-row ">
       <div className="bg-secondary w-[100%] h-[50%] mt-[64px] sm:w-[50%] xl:px-40 px-5 mb-5 py-20">
-        <h2 className={`${styles.title_black} sm:pt-20`}>Contactez moi !</h2>
+        <h2 className={`${styles.title_black} sm:pt-20`}>
+          Contactez moi&nbsp;!
+        </h2>
         <form ref={formRef} onSubmit={handleSubmit} className="space-y-10">
           <div>
             <label className="sr-only" htmlFor="name">
