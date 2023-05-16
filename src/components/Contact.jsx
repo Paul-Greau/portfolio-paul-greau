@@ -7,7 +7,7 @@ import emailjs from "@emailjs/browser";
 
 import { styles } from "../assets/styles/styles";
 
-// import EarthCanva from "./canvas/Earth";
+import EarthCanva from "./canvas/Earth";
 
 function Contact() {
   const formRef = useRef();
@@ -145,8 +145,8 @@ function Contact() {
         </form>
       </div>
 
-      <div className=" bg-primary w-[100%] h-[100vh] mt-[64px] sm:w-[50%]">
-        {/* <EarthCanva /> */}
+      <div className=" bg-primary w-[100%] h-[100vh] mt-[64px] sm:w-[50%] touch-none">
+        <EarthCanva />
       </div>
     </section>
   );
