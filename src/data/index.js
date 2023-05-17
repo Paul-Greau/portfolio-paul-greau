@@ -111,11 +111,11 @@ export const skills_balls = [
   { icon: nodejs },
   { icon: pgsql },
   { icon: sql },
-  { icon: git },
-  { icon: figma },
-  { icon: tailwind },
-  { icon: mui },
-  { icon: sequelize },
+  // { icon: git },
+  // { icon: figma },
+  // { icon: tailwind },
+  // { icon: mui },
+  // { icon: sequelize },
 ];
 
 export const navLinks = [

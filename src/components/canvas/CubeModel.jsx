@@ -10,8 +10,6 @@ const Polyhedron = ({ position, polyhedron }) => {
   const ref = useRef();
   const [count, setCount] = useState(0);
 
-  console.log(polyhedron);
-
   useFrame((_, delta) => {
     ref.current.rotation.x += 0.5 * delta;
     ref.current.rotation.y += 0.25 * delta;
@@ -34,8 +32,8 @@ const Polyhedron = ({ position, polyhedron }) => {
 
 const CanvasBox = () => {
   const polyhedron = [
-    new THREE.BoxGeometry(),
     new THREE.DodecahedronGeometry(0.785398),
+    new THREE.BoxGeometry(),
     new THREE.SphereGeometry(0.785398),
   ];
 
