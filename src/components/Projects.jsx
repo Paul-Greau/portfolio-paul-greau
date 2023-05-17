@@ -32,8 +32,8 @@ function Projects() {
             mener à bien.
           </p>
         </div>
-        <div className="flex flex-col sm:flex-row justify-evenly">
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm w-full xs:w-[40%] lg:w-[460px] xl:w-[490px]">
+        <div className="flex flex-col sm:flex-row justify-evenly gap-5">
+          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm w-full sm:w-[400px] lg:w-[460px] xl:w-[490px]">
             <a href="https://idfrog-project.onrender.com/" target="blank">
               <img alt="idfrog screen" src={idfrog} className="object-cover" />
             </a>
@@ -45,8 +45,8 @@ function Projects() {
                 peuvent partager leurs idées, travailler ensemble et les
                 présenter aux investisseurs, jusqu'à leur réalisation.
               </p>
-              <div className="flex justify-between mt-3">
-                <div className="flex my-5 ">
+              <div className="flex flex-col justify-between mt-3 lg:flex-row">
+                <div className="flex justify-center my-5 lg:justify-start">
                   <DiHtml5 size={40} />
                   <DiCss3 size={40} />
                   <DiJavascript size={40} />
@@ -54,7 +54,7 @@ function Projects() {
                   <DiNodejsSmall size={40} />
                   <DiPostgresql size={40} />
                 </div>
-                <div className="flex justify-around gap-2 ml-2 ">
+                <div className="flex justify-evenly lg:justify-around gap-2 ml-2 max-w-[158px] self-center">
                   <a
                     href="https://github.com/Paul-Greau/projet-08-idfrog-tp"
                     target="blank"
@@ -78,7 +78,7 @@ function Projects() {
               </div>
             </div>
           </article>
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm w-full xs:w-[40%] lg:w-[460px] xl:w-[490px]">
+          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm w-full sm:w-[400px] lg:w-[460px] xl:w-[490px]">
             <a href="https://paul-greau.netlify.app/" target="blank">
               <img alt="Portfolio screen" src={pf} className="object-cover" />
             </a>
@@ -92,15 +92,15 @@ function Projects() {
                 les technologies que j'ai utilisées pour démontrer mes capacités
                 professionnelles.
               </p>
-              <div className="flex justify-between mt-3">
-                <div className="flex my-5 ">
+              <div className="flex flex-col justify-between mt-3 lg:flex-row">
+                <div className="flex justify-center my-5 lg:justify-start">
                   <DiHtml5 size={40} />
                   <DiCss3 size={40} />
                   <DiJavascript size={40} />
                   <DiReact size={40} />
                   <SiTailwindcss size={40} />
                 </div>
-                <div className="flex justify-around gap-2 ml-2 ">
+                <div className="flex justify-evenly lg:justify-around gap-2 ml-2 max-w-[158px] self-center">
                   <a
                     href="https://github.com/Paul-Greau/portfolio-paul-greau"
                     target="blank"
