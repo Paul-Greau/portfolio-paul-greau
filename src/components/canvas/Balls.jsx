@@ -73,7 +73,7 @@ const Balls = () => {
       navigator.userAgent
     );
 
-  let skillsToRender = estMobile ? skills_balls.slice(0, 8) : skills_balls;
+  let skillsToRender = estMobile ? skills_balls.slice(0, 7) : skills_balls;
 
   return (
     <div className="flex flex-row flex-wrap justify-center gap-4">
