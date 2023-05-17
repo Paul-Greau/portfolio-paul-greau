@@ -33,12 +33,12 @@ function Projects() {
           </p>
         </div>
         <div className="flex flex-col sm:flex-row justify-evenly gap-5">
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm w-full sm:w-[400px] lg:w-[460px] xl:w-[490px]">
+          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full sm:w-[400px] lg:w-[460px] xl:w-[490px] ">
             <a href="https://idfrog-project.onrender.com/" target="blank">
               <img alt="idfrog screen" src={idfrog} className="object-cover" />
             </a>
 
-            <div className="p-4 sm:p-5 flex flex-col">
+            <div className="p-4 sm:p-5 flex flex-col ">
               <h3 className="text-3xl font-black text-gray-900 mb-2">IdFrog</h3>
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
                 IdFrog est une plateforme collaborative où les utilisateurs
@@ -78,7 +78,7 @@ function Projects() {
               </div>
             </div>
           </article>
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm w-full sm:w-[400px] lg:w-[460px] xl:w-[490px]">
+          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full sm:w-[400px] lg:w-[460px] xl:w-[490px]">
             <a href="https://paul-greau.netlify.app/" target="blank">
               <img alt="Portfolio screen" src={pf} className="object-cover" />
             </a>
