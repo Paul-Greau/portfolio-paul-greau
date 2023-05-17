@@ -54,10 +54,30 @@ const BallCanvas = ({ icon }) => {
     </Canvas>
   );
 };
+// const Balls = () => {
+//   return (
+//     <div className="flex flex-row flex-wrap justify-center gap-4">
+//       {skills_balls.map((skb, index) => (
+//         <div className="h-28 w-28" key={index}>
+//           <BallCanvas icon={skb.icon} />
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
+// export default Balls;
+
 const Balls = () => {
+  const estMobile =
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    );
+
+  let skillsToRender = estMobile ? skills_balls.slice(0, 6) : skills_balls;
+
   return (
     <div className="flex flex-row flex-wrap justify-center gap-4">
-      {skills_balls.map((skb, index) => (
+      {skillsToRender.map((skb, index) => (
         <div className="h-28 w-28" key={index}>
           <BallCanvas icon={skb.icon} />
         </div>
@@ -65,4 +85,5 @@ const Balls = () => {
     </div>
   );
 };
+
 export default Balls;

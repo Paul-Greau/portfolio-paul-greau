@@ -111,6 +111,21 @@ export const skills_balls = [
   { icon: nodejs },
   { icon: pgsql },
   { icon: sql },
+  { icon: git },
+  { icon: figma },
+  { icon: tailwind },
+  { icon: mui },
+  { icon: sequelize },
+];
+
+export const skills_balls_mobile = [
+  { icon: html },
+  { icon: css },
+  { icon: js },
+  { icon: react },
+  { icon: nodejs },
+  { icon: pgsql },
+  { icon: sql },
   // { icon: git },
   // { icon: figma },
   // { icon: tailwind },
