@@ -11,11 +11,13 @@ const Footer = () => {
       <footer aria-label="Site Footer" className="bg-primary">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="text-tertiary flex justify-center">
-            <img
-              src={pglogo}
-              alt="logo"
-              className="h-11 w-11 object-contain "
-            />
+            <a href="/#header">
+              <img
+                src={pglogo}
+                alt="logo"
+                className="h-11 w-11 object-contain "
+              />
+            </a>
           </div>
 
           <p className="text-tertiary mx-auto mt-6 max-w-md text-center leading-relaxed">

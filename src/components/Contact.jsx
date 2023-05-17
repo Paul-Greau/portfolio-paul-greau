@@ -141,7 +141,7 @@ function Contact() {
               type="submit"
               className="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-secondary sm:w-auto"
             >
-              {loading ? "Envoie en cours..." : "Envoyez"}
+              {loading ? "Envoie en cours..." : "Envoyer"}
             </button>
           </div>
         </form>

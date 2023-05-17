@@ -80,7 +80,7 @@ export const work = [
     company_name: "Calas",
     icon: lcf,
     iconBg: "#fff",
-    date: "2019 - 2022",
+    date: "2015 - 2017",
     points: [
       "Gestion administrative",
       "Comptabilité",
@@ -93,7 +93,7 @@ export const work = [
     company_name: "AFFIDA",
     icon: affida,
     iconBg: "#fff",
-    date: "2022 - 2023",
+    date: "2015 - 2017",
     points: [
       "Obtention du BTS MUC",
       "Élaboration du plan de développement commercial",
@@ -126,17 +126,12 @@ export const skills_balls_mobile = [
   { icon: nodejs },
   { icon: pgsql },
   { icon: sql },
-  // { icon: git },
-  // { icon: figma },
-  // { icon: tailwind },
-  // { icon: mui },
-  // { icon: sequelize },
 ];
 
 export const navLinks = [
-  { name: "Home", link: "header" },
-  { name: "About", link: "about" },
-  { name: "Projects", link: "projects" },
-  { name: "Experiences", link: "experiences" },
+  { name: "Accueil", link: "header" },
+  { name: "À propos", link: "about" },
+  { name: "Projets", link: "projects" },
+  { name: "Expériences", link: "experiences" },
   { name: "Contact", link: "contact" },
 ];

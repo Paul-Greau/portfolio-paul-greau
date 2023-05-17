@@ -9,6 +9,8 @@ import {
   useTexture,
 } from "@react-three/drei";
 import { skills_balls } from "../../data";
+
+import { useState, useEffect } from "react";
 // import Loader from "../../utils/Loader";
 
 // console.log("Tech img", skills_balls);
@@ -67,13 +69,46 @@ const BallCanvas = ({ icon }) => {
 // };
 // export default Balls;
 
-const Balls = () => {
-  const estMobile =
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
-    );
+// const Balls = () => {
+//   const estMobile =
+//     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+//       navigator.userAgent
+//     );
 
-  let skillsToRender = estMobile ? skills_balls.slice(0, 7) : skills_balls;
+//   let skillsToRender = estMobile ? skills_balls.slice(0, 7) : skills_balls;
+
+//   return (
+//     <div className="flex flex-row flex-wrap justify-center gap-4">
+//       {skillsToRender.map((skb, index) => (
+//         <div className="h-28 w-28" key={index}>
+//           <BallCanvas icon={skb.icon} />
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
+
+// export default Balls;
+
+const Balls = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 428px)"); // Modifiez la résolution en fonction de vos besoins
+    setIsMobile(mediaQuery.matches);
+
+    const handleResize = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    mediaQuery.addListener(handleResize);
+
+    return () => {
+      mediaQuery.removeListener(handleResize);
+    };
+  }, []);
+
+  let skillsToRender = isMobile ? skills_balls.slice(0, 7) : skills_balls;
 
   return (
     <div className="flex flex-row flex-wrap justify-center gap-4">
