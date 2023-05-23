@@ -19,7 +19,7 @@ const Polyhedron = ({ position, polyhedron }) => {
 
   return (
     <mesh
-      scale={1.5}
+      scale={1.4}
       position={position}
       ref={ref}
       onPointerDown={() => {

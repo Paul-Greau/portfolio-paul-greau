@@ -3,7 +3,7 @@ import CubeModel from "./canvas/CubeModel";
 const Header = () => {
   return (
     <section id="header" className="flex h-screen flex-wrap justify-center ">
-      <div className="mb-[10%] flex w-[90%] max-w-[1100px] justify-between px-4 sm:px-6 lg:px-8">
+      <div className="mb-[7%] flex w-[90%] max-w-[1100px] justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex">
           <div className="z-0 flex flex-col items-center justify-center pt-16">
             <div className="bg-primary h-6 w-6 rounded-full"></div>
