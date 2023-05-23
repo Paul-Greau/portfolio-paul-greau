@@ -57,7 +57,7 @@ export default function EarthCanva() {
     <Canvas>
       <hemisphereLight intensity={0.15} groundColor="white" />
       <pointLight
-        position={[10, 50, 10]}
+        position={[50, 50, 50]}
         angle={0.15}
         penumbra={1}
         intensity={4}
