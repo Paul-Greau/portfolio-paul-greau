@@ -18,7 +18,10 @@ const Header = () => {
             </h1>
             <p className="text-xl font-bold">
               Développeur junior
-              <span className="text-xl font-thin">| Full stack JS - UI/UX</span>
+              <span className="text-xl font-thin">
+                {" "}
+                | Full stack JS - UI/UX
+              </span>
             </p>
           </div>
         </div>
