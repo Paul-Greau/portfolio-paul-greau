@@ -11,7 +11,8 @@ import {
 import { skills_balls } from "../../data";
 
 import { useState, useEffect } from "react";
-// import Loader from "../../utils/Loader";
+
+import Loader from "../Loader/Loader";
 
 // console.log("Tech img", skills_balls);
 const Ball = (props) => {
@@ -48,7 +49,7 @@ const BallCanvas = ({ icon }) => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <pointLight position={[2, 2, 6]} color="#fff" intensity={0.1} />
-      <Suspense fallback={null}>
+      <Suspense fallback={<Loader />}>
         <OrbitControls enableZoom={false} />
         <Ball iconImg={icon} />
       </Suspense>

@@ -1,6 +1,4 @@
-/* eslint-disable tailwindcss/no-custom-classname */
 import React from "react";
-
 import { pglogo } from "../assets/images";
 
 const Footer = () => {

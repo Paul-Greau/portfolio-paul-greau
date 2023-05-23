@@ -18,6 +18,8 @@ import {
 } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
+import Loader from "../Loader/Loader";
+
 function Earth(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF("/earth.glb");
@@ -63,7 +65,7 @@ export default function EarthCanva() {
         shadow-mapSize={1024}
       />
 
-      <Suspense fallback={null}>
+      <Suspense fallback={<Loader />}>
         <OrbitControls
           autoRotate
           enableZoom={false}
@@ -71,10 +73,10 @@ export default function EarthCanva() {
           minPolarAngle={Math.PI / 2}
         />
         <Earth />
-        <Preload all />
       </Suspense>
+      <Preload all />
     </Canvas>
   );
 }
 
-useGLTF.preload("/earth.glb");
+useGLTF.preload("../earth.glb");
