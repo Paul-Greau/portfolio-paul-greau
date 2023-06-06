@@ -15,6 +15,7 @@ function Experiences() {
         <a
           href="../../cv_paul_greau.pdf"
           target="_blank"
+          download
           className={`${styles.subTitle_black} border-2 border-white border-solid py-3 px-6 rounded-full bg-secondary hover:text-secondary hover:bg-primary`}
         >
           Télécharger mon CV
