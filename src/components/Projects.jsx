@@ -10,6 +10,7 @@ import {
   DiNodejsSmall,
   DiPostgresql,
   DiWordpress,
+  DiMysql,
 } from "react-icons/di";
 
 import { SiTailwindcss, SiElementor, SiWordpress } from "react-icons/si";
@@ -147,6 +148,7 @@ function Projects() {
                 <div className="flex justify-center my-5 lg:justify-start">
                   <DiWordpress size={40} />
                   <SiElementor size={40} className="p-1" />
+                  <DiMysql size={40} />
                 </div>
                 <div className="flex justify-evenly lg:justify-around gap-2 ml-2 max-w-[158px] self-center">
                   {/* <a
