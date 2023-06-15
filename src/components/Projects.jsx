@@ -9,11 +9,12 @@ import {
   DiReact,
   DiNodejsSmall,
   DiPostgresql,
+  DiWordpress,
 } from "react-icons/di";
 
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiElementor, SiWordpress } from "react-icons/si";
 
-import { idfrog, pf } from "../assets/images";
+import { idfrog, pf, ha } from "../assets/images";
 
 import { styles } from "../assets/styles/styles";
 
@@ -45,7 +46,7 @@ function Projects() {
                 peuvent partager leurs idées, travailler ensemble et les
                 présenter aux investisseurs, jusqu'à leur réalisation.
               </p>
-              <div className="flex flex-col justify-between mt-3 lg:flex-row">
+              <div className="flex flex-col justify-between mt-3">
                 <div className="flex justify-center my-5 lg:justify-start">
                   <DiHtml5 size={40} />
                   <DiCss3 size={40} />
@@ -92,7 +93,7 @@ function Projects() {
                 les technologies que j'ai utilisées pour démontrer mes capacités
                 professionnelles.
               </p>
-              <div className="flex flex-col justify-between mt-3 lg:flex-row">
+              <div className="flex flex-col justify-between mt-3">
                 <div className="flex justify-center my-5 lg:justify-start">
                   <DiHtml5 size={40} />
                   <DiCss3 size={40} />
@@ -113,6 +114,53 @@ function Projects() {
 
                   <a
                     href="https://paul-greau.netlify.app/"
+                    target="blank"
+                    className="group inline-flex items-center text-sm font-medium "
+                  >
+                    <div className="border-2 border-black border-solid text-white bg-black rounded-full py-2 px-4 hover:bg-white hover:text-black">
+                      Demo
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full sm:w-[400px] lg:w-[460px] xl:w-[490px]">
+            <a href="https://paul-greau.netlify.app/" target="blank">
+              <img
+                alt="HA Menuiserie screen"
+                src={ha}
+                className="object-cover"
+              />
+            </a>
+
+            <div className="p-4 sm:p-5 flex flex-col">
+              <h3 className="text-3xl font-black text-gray-900 mb-2">
+                HA Menuiserie
+              </h3>
+              <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                Découvrez le site professionnel que j'ai créé pour un menuisier
+                passionné. Explorez ses réalisations et contactez-le pour vos
+                projets sur mesure.
+              </p>
+              <div className="flex flex-col justify-between mt-3">
+                <div className="flex justify-center my-5 lg:justify-start">
+                  <DiWordpress size={40} />
+                  <SiElementor size={40} className="p-1" />
+                </div>
+                <div className="flex justify-evenly lg:justify-around gap-2 ml-2 max-w-[158px] self-center">
+                  {/* <a
+                    href="https://github.com/Paul-Greau/portfolio-paul-greau"
+                    target="blank"
+                    className="group  inline-flex items-center text-sm font-medium "
+                  >
+                    <div className="border-2 border-black border-solid text-white bg-black rounded-full py-2 px-4 hover:bg-white hover:text-black">
+                      Github
+                    </div>
+                  </a> */}
+
+                  <a
+                    href="https://ha-menuiserie.great-site.net/"
                     target="blank"
                     className="group inline-flex items-center text-sm font-medium "
                   >
