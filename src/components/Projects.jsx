@@ -127,7 +127,7 @@ function Projects() {
             </div>
           </article>
           <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full sm:w-[400px] lg:w-[460px] xl:w-[490px]">
-            <a href="https://paul-greau.netlify.app/" target="blank">
+            <a href="https://ha-menuiserie.great-site.net/" target="blank">
               <img
                 alt="HA Menuiserie screen"
                 src={ha}
