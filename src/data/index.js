@@ -43,7 +43,7 @@ export const work = [
     iconBg: "#fff",
     date: "2019 - 2022",
     points: [
-      "Receuil et qualification des besoins clients",
+      "Recueil et qualification des besoins clients",
       "Étude de la satisfaction client",
       "Mise en place d'actions commerciales",
     ],
