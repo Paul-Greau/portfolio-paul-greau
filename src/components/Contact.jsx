@@ -80,7 +80,7 @@ function Contact() {
             </label>
             <input
               className="w-full rounded-lg border-gray-200 p-4 text-sm"
-              placeholder="Name"
+              placeholder="Nom"
               type="text"
               name="name"
               value={form.name}
@@ -96,7 +96,7 @@ function Contact() {
               </label>
               <input
                 className="w-full rounded-lg border-black-200 p-4 text-sm"
-                placeholder="Email address"
+                placeholder="Adresse email"
                 type="email"
                 name="email"
                 value={form.email}
@@ -111,7 +111,7 @@ function Contact() {
               </label>
               <input
                 className="w-full rounded-lg border-black-200 p-4 text-sm"
-                placeholder="Phone Number"
+                placeholder="Téléphone"
                 type="tel"
                 name="phone"
                 value={form.phone}
