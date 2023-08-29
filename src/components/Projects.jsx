@@ -127,7 +127,7 @@ function Projects() {
             </div>
           </article>
           <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full sm:w-[400px] lg:w-[460px] xl:w-[490px]">
-            <a href="https://ha-menuiserie.great-site.net/" target="blank">
+            <a href="https://ha-menuiserie.wuaze.com/" target="blank">
               <img
                 alt="HA Menuiserie screen"
                 src={ha}
@@ -162,7 +162,7 @@ function Projects() {
                   </a> */}
 
                   <a
-                    href="https://ha-menuiserie.great-site.net/"
+                    href="https://ha-menuiserie.wuaze.com/"
                     target="blank"
                     className="group inline-flex items-center text-sm font-medium "
                   >
