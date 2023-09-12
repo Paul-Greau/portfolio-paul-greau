@@ -12,6 +12,7 @@ import {
   tailwind,
   mui,
   sequelize,
+  wp,
   //logo exp
   affida,
   grapebar,
@@ -116,6 +117,7 @@ export const skills_balls = [
   { icon: tailwind },
   { icon: mui },
   { icon: sequelize },
+  {icon: wp},
 ];
 
 export const skills_balls_mobile = [

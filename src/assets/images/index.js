@@ -11,6 +11,7 @@ import figma from "./icons_tech/figma-logo.png";
 import tailwind from "./icons_tech/tailwind-logo.png";
 import mui from "./icons_tech/mui-logo.png";
 import sequelize from "./icons_tech/sequelize-logo.png";
+import wp from "./icons_tech/wp.png";
 // logo exp
 import affida from "./icons_exp/affida_logo.png";
 import grapebar from "./icons_exp/grapebar_logo.png";
@@ -42,6 +43,7 @@ export {
   tailwind,
   mui,
   sequelize,
+  wp,
   // logo exp
   affida,
   grapebar,
