@@ -13,7 +13,7 @@ function Experiences() {
       <h2 className={`${styles.title} `}>Expériences</h2>
       <div className="flex flex-row justify-center">
         <a
-          href="../../cv_paul_greau.pdf"
+          href="../../cv-paul-greau.pdf"
           target="_blank"
           download
           className={`${styles.subTitle_black} border-2 border-white border-solid py-3 px-6 rounded-full bg-secondary hover:text-secondary hover:bg-primary`}
