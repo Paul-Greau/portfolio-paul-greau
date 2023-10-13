@@ -13,6 +13,8 @@ import {
   DiMysql,
 } from "react-icons/di";
 
+import Tilt from "react-parallax-tilt";
+
 import { SiTailwindcss, SiElementor, SiWordpress } from "react-icons/si";
 
 import { idfrog, pf, ha, iso } from "../assets/images";
@@ -35,7 +37,8 @@ function Projects() {
           </p>
         </div>
         <div className="flex flex-col sm:flex-row justify-evenly gap-5 mb-5">
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full md:w-[33%]  ">
+          <Tilt className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full md:w-[33%]">
+          <article >
             <a href="https://idfrog.isoluti.com/" target="blank">
               <img alt="idfrog screen" src={idfrog} className="object-cover w-full" />
             </a>
@@ -80,7 +83,9 @@ function Projects() {
               </div>
             </div>
           </article>
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full md:w-[33%] ">
+          </Tilt>
+          <Tilt className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full md:w-[33%]">
+          <article>
             <a href="https://paul-greau.netlify.app/" target="blank">
               <img alt="Portfolio screen" src={pf} className="object-cover w-full" />
             </a>
@@ -126,7 +131,9 @@ function Projects() {
               </div>
             </div>
           </article>
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full md:w-[33%] ">
+          </Tilt>
+          <Tilt className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full md:w-[33%]">
+          <article>
             <a href="https://ha-menuiserie.isoluti.com/" target="blank">
               <img
                 alt="HA Menuiserie screen"
@@ -174,9 +181,11 @@ function Projects() {
               </div>
             </div>
           </article>
+          </Tilt>
         </div>
         <div className="flex flex-col sm:flex-row justify-start gap-5">
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full md:w-[32%]">
+        <Tilt className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-full md:w-[32%]">
+          <article>
             <a href="https://isoluti.com/" target="blank">
             <img alt="isoluti screen" src={iso} className="object-cover w-full" />
             </a>
@@ -218,6 +227,7 @@ function Projects() {
               </div>
             </div>
           </article>
+          </Tilt>
           
         </div>
       </div>

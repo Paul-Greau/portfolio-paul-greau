@@ -147,7 +147,7 @@ function Contact() {
         </form>
       </div>
 
-      <div className=" bg-primary w-[100%] h-[100vh] mt-[64px] sm:w-[50%] touch-none">
+      <div className=" bg-primary w-[100%] h-[100vh]  sm:w-[50%] touch-none">
         <EarthCanva />
       </div>
     </section>
