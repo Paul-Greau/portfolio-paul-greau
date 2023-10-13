@@ -28,6 +28,7 @@ import github from "./github.svg";
 import idfrog from "./capt/idfrog_capt.png";
 import pf from "./capt/portfolio_cap.png";
 import ha from "./capt/capture-ha.png";
+import iso from "./capt/isoluti_capt.png"
 
 export {
   // logo tech
@@ -60,4 +61,5 @@ export {
   idfrog,
   pf,
   ha,
+  iso,
 };
