@@ -6,13 +6,15 @@ import {
   react,
   nodejs,
   pgsql,
-  sql,
+  mysql,
   git,
   figma,
   tailwind,
   mui,
   sequelize,
   wp,
+  elem,
+  // sql,
   //logo exp
   affida,
   grapebar,
@@ -111,13 +113,16 @@ export const skills_balls = [
   { icon: react },
   { icon: nodejs },
   { icon: pgsql },
-  { icon: sql },
+  { icon: mysql },
   { icon: git },
   { icon: figma },
   { icon: tailwind },
   { icon: mui },
   { icon: sequelize },
-  {icon: wp},
+  { icon: wp },
+  { icon: elem },
+  // { icon: sql },
+  
 ];
 
 export const skills_balls_mobile = [
@@ -127,7 +132,7 @@ export const skills_balls_mobile = [
   { icon: react },
   { icon: nodejs },
   { icon: pgsql },
-  { icon: sql },
+  { icon: mysql },
 ];
 
 export const navLinks = [
