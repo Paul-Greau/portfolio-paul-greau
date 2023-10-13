@@ -215,7 +215,7 @@ function Projects() {
                   </a> */}
 
                   <a
-                    href="https://ha-menuiserie.wuaze.com/"
+                    href="https://isoluti.com/"
                     target="blank"
                     className="group inline-flex items-center text-sm font-medium "
                   >
