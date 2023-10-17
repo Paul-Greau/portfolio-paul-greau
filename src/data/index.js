@@ -44,7 +44,7 @@ export const work = [
     title: "Apprenant développeur web JS",
     company_name: "O'clock",
     icon: oclock,
-    iconBg: "#fff",
+    iconBg: "#161000",
     date: "2022 - 2023",
     points: [
       "Développement d'applications web",
@@ -57,7 +57,7 @@ export const work = [
     title: "Customer Succes Officer",
     company_name: "Scorimmo",
     icon: scorimmo,
-    iconBg: "#fff",
+    iconBg: "#1A202E",
     date: "2019 - 2022",
     points: [
       "Recueil et qualification des besoins clients",
