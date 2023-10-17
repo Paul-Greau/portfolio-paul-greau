@@ -22,24 +22,38 @@ import {
   ledc,
   oclock,
   scorimmo,
+  marianne,
 } from "../assets/images";
 
 export const work = [
   {
     id: 1,
+    title: "Obtention du Titre professionnel DWWM",
+    company_name: "Ministère du Travail, du Plein emploi et de l'Insertion",
+    icon: marianne,
+    iconBg: "#fff",
+    date: "Mars 2023",
+    points: [
+      "Diplôme de Développeur Web et Web Mobile",
+      "Titre professionnel Niveau 5 - RNCP",
+      "Formation Développeur Web et Mobile Full Stack JS",
+    ],
+  },
+  {
+    id: 2,
     title: "Apprenant développeur web JS",
     company_name: "O'clock",
     icon: oclock,
     iconBg: "#fff",
     date: "2022 - 2023",
     points: [
-      "Obtention du titre de niveau V - DWWM",
       "Développement d'applications web",
       "Élaboration du projet IdFrog",
+      "HTML, CSS, Javascript, React, Node, PostgreSQL, ...",
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Customer Succes Officer",
     company_name: "Scorimmo",
     icon: scorimmo,
@@ -52,7 +66,7 @@ export const work = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Serveur",
     company_name: "Grape Bar",
     icon: grapebar,
@@ -65,7 +79,7 @@ export const work = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Volontaire Service Civique",
     company_name: "Les enfants du canal",
     icon: ledc,
@@ -78,7 +92,21 @@ export const work = [
     ],
   },
   {
-    id: 5,
+    id: 6,
+    title: "Étudiant BTS MUC",
+    company_name: "AFFIDA",
+    icon: affida,
+    iconBg: "#fff",
+    date: "Juin 2017",
+    points: [
+      "Obtention du BTS MUC",
+      "Élaboration du plan de développement commercial",
+      "Apprentissage des outils et méthodes de gestion",
+      "management et marketing",
+    ],
+  },
+  {
+    id: 7,
     title: "Apprenti Commerce Gestion",
     company_name: "Calas",
     icon: lcf,
@@ -88,20 +116,6 @@ export const work = [
       "Gestion administrative",
       "Comptabilité",
       "Gestion des stocks et commandes",
-    ],
-  },
-  {
-    id: 6,
-    title: "Étudiant BTS MUC",
-    company_name: "AFFIDA",
-    icon: affida,
-    iconBg: "#fff",
-    date: "2015 - 2017",
-    points: [
-      "Obtention du BTS MUC",
-      "Élaboration du plan de développement commercial",
-      "Apprentissage des outils et méthodes de gestion",
-      "management et marketing",
     ],
   },
 ];

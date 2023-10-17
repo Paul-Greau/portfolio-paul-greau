@@ -21,6 +21,7 @@ import lcf from "./icons_exp/lcf_logo.png";
 import ledc from "./icons_exp/ledc_logo.png";
 import oclock from "./icons_exp/oclock_logo.png";
 import scorimmo from "./icons_exp/scorimmo_logo.png";
+import marianne from "./icons_exp/logo-marianne.png"
 // logo pg
 import pglogo from "./pg-logo.svg";
 // social icon
@@ -56,6 +57,7 @@ export {
   ledc,
   oclock,
   scorimmo,
+  marianne,
   // logo pg
   pglogo,
   // social icon
